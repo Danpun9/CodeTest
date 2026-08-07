@@ -21,7 +21,8 @@ class Solution {
                 stack.pop();
         }
         
-        if(!stack.empty()) answer = false;
+        if(!stack.empty()) 
+            answer = false;
 
         return answer;
     }
